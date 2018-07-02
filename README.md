@@ -5,13 +5,15 @@ taps](https://docs.brew.sh/Taps) for
 
 [statiks](https://github.com/janiltonmaciel/statiks)
 
-##Usage
+## Usage
 
 First, add this tap:
-
-	% brew tap janiltonmaciel/homebrew-tap
+```bash
+$ brew tap janiltonmaciel/homebrew-tap
+```
 
 Then install the desired formula:
-
-	% brew install dockerfile-gen
-	% brew install statiks
+```bash
+$ brew install dockerfile-gen
+$ brew install statiks
+```

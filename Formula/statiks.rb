@@ -2,9 +2,9 @@
 class Statiks < Formula
   desc "Generator Dockerfile"
   homepage "https://github.com/janiltonmaciel/statiks"
-  url "https://github.com/janiltonmaciel/statiks/releases/download/0.5/statiks_0.5_macOS_amd64.tar.gz"
-  version "0.5"
-  sha256 "979d57db0a817539fd4dc5102a54bda01f56cc04fe17f280ef6adcac14c3823e"
+  url "https://github.com/janiltonmaciel/statiks/releases/download/0.6/statiks_0.6_macOS_amd64.tar.gz"
+  version "0.6"
+  sha256 "5d576ce8e95e2bd6ffa2bc654f1d7568ce64b3d81d6c3c4180b19997290daf66"
 
   def install
     bin.install "statiks"

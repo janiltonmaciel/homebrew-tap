@@ -2,16 +2,16 @@
 class Statiks < Formula
   desc "Fast, zero-configuration, static HTTP filer server."
   homepage "https://github.com/janiltonmaciel/statiks"
-  version "1.0.0"
+  version "1.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/janiltonmaciel/statiks/releases/download/v1.0.0/statiks_1.0.0_darwin_amd64.tar.gz"
-    sha256 "710d30a65d9594ee9413001443b85d7532a08e5037288d3f1f14392c1f37a1c4"
+    url "https://github.com/janiltonmaciel/statiks/releases/download/v1.5.0/statiks_1.5.0_darwin_amd64.tar.gz"
+    sha256 "194d8cd86b15e238a150dc6bf4b3320dc118e2111dd9916c8ce38648976ffa02"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/janiltonmaciel/statiks/releases/download/v1.0.0/statiks_1.0.0_linux_amd64.tar.gz"
-      sha256 "5183ddda60e8a2e5eda5ce3997443db42d36777ceab121332f9f545cd6061bad"
+      url "https://github.com/janiltonmaciel/statiks/releases/download/v1.5.0/statiks_1.5.0_linux_amd64.tar.gz"
+      sha256 "15da5800705c4717f86135efa3fd8fd1fc441175a8a80374020d0b8cc6f5e208"
     end
   end
 
